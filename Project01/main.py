@@ -22,7 +22,6 @@ while True:
         print(Fore.RED + "Invalid choice! Please choose either 's', 'w', or 'g'.")
     else:
         you = you_Dict[you_str]
-        
         print(Fore.CYAN + f"You chose {reverse_Dict[you]}\nComputer chose {reverse_Dict[computer]} ")
 
         if computer == you:
